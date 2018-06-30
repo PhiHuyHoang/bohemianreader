@@ -1,90 +1,211 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
-  <meta charset="UTF-8">
-  <link rel="icon" href="/static/images/hoangicon.png"/>
-<title>Bohemian Guy</title>
+<link rel="icon" href="/static/images/hoangicon.png"/>
+<title>Bohemian Reader</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-      <link rel="stylesheet" href="/static/css/style.css">
-  
+<link rel ="stylesheet" type="text/css" href="/static/css/main.css">
 </head>
-
 <body>
-
-  <div class="html active-location-card active-location-card--new-york">
-
-<article class="location-card location-card--new-york">
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+<script type='text/javascript' src='js/jquery.ba-hashchange.min.js'></script>
+<script type='text/javascript' src='js/dynamicpage.js'></script>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+        $(function(){
+    $(".ui-tabs-panel").hide();
     
-    <div class="location-card__city-name">Bohemian<br>Guy</div>
+    $(".ul-buttom.ul-buttom-hide").children().click(function () {
+        var divname = $(this).attr('href');
+        $(divname).show("slow").siblings().hide("slow");
+    });
+});
+    </script>
+<style>
+.ui-tabs-hide {
+    display : none;
+}
+</style>
 
-    <ul class="location-card__hashtags">
-        <li><a href="https://twitter.com/hashtag/newyork?src=hash">#vietnam</a></li>
-        <li><a href="https://twitter.com/hashtag/iveneverbeen?src=hash">#iveneverbeen</a></li>
-        <li><a href="https://twitter.com/hashtag/dreamscometrue?src=hash">#kid</a></li>
-        <li><a href="https://twitter.com/hashtag/bigapple?src=hash">#bohemian</a></li>
-    </ul>
-    <!-- /.location-card__hashtags -->
-
-    <div class="location-card__panel">
-
-        <div class="location-card__slides">
-            
-            <div class="location-card__slide  point-of-interest">
-                
-                <div class="point-of-interest__name">Bohemian Guy</div>
-        
-                <div class="point-of-interest__likes">5 peoples like this</div>
-
-				
-                <div class="point-of-interest__description">
-				"Anh không thích phải mở đi mở lại Tinder để chat với em chút nào, liệu rằng, anh có thể xin số điện thoại của em để nhắn tin một cách đường đường chính chính không?"																	  
-				<br></br>
-				<em>- Bohemian Guy -</em>
-				<br></br>
-				<br></br>
-				<br></br>
-				</div>
-				
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v3.0';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-	<div class="fb-like" data-href="https://www.facebook.com/changtraithichnoilamnham/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-    </div>
-            </div>
-            <!-- /.location-card__slide -->
-
-        </div>
-        <!-- /.location-card__slides -->
-
-        <ul class="location-card__thumbnails">
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/35518931_985794131599734_1288778728997912576_n.jpg?_nc_cat=0&oh=17652ea505c75799646a7341083b229e&oe=5B9DC766"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/34199452_1310618472405675_8960643011843194880_n.jpg?_nc_cat=0&oh=1adb8ef7c96df98835db94479ffec701&oe=5BA82981"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/35924564_2072825456268141_4796720463738830848_n.jpg?_nc_cat=0&oh=588d0e99a9e9014cf2570101509e7ea6&oe=5BE93B2C"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/26804605_573098653035445_310535705391497321_n.jpg?_nc_cat=0&oh=a88ff90fc696a8d8072f1fe2eab449f0&oe=5BB08FF5"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/20621109_1362701320495117_6921662680210470499_n.jpg?_nc_cat=0&oh=98f8089ff25c381a5eb6baf0f03312f7&oe=5BAF9150"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/p100x100/36310243_2108586179399596_303343743296077824_n.jpg?_nc_cat=0&oh=827eab788af9d229e365e13f64a2e9cb&oe=5BB29C33"></li>
-            <li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/c0.13.100.100/p100x100/27858139_1038164579664102_7040107528796633138_n.jpg?_nc_cat=0&oh=d6524eb7fdb5a426e52fa65bb830a231&oe=5BDC84BD"></li>
-			<li><img src="https://scontent.fbud4-1.fna.fbcdn.net/v/t1.0-1/c19.153.601.601/s100x100/35043491_661033777562885_1956111325608280064_n.jpg?_nc_cat=0&oh=ccf1f903a218a94f223bedadbe753e51&oe=5BDD7CA1"></li>
-			
-			<!--<li class="location-card__thumbnails-more">+15</li>-->
-        </ul>
-        <!-- /.location-card__thumbnails -->
-	
-    <!-- /.location-card__panel -->
-
-</article>
-<!-- /.location-card -->
+<div class="container">
+  <!-- Box 1 (Header) -->
   
-</div> 
+  <!-- Box 2 (Article) -->
+	<div id="bigpanel">
+    <div id="tabs">
+	<div id="fragment-1">
+	<section class="box">
+    <header class="box-content">
+      <!-- Heading -->
+      <div class="box-heading">
+        <h2 class="box-author">Bohemian GUy</h2>
+        <h1 class="box-title">Những <br>con chuột <br>xấu xa <br>muốn <br>giải phóng <br> đồng quê</h1>
+        <a href="https://www.facebook.com/Zinny123" class="box-btn">Author</a>
+      </div>
+    </header>
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10"></a></li>
+  
+      </ul>
+      <a href="https://chomottachcoffee.wordpress.com" class="btn-comment" title="Text me here">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+	</div>
+	<div id="fragment-2" class="ui-tabs-panel ui-tabs-hide">
+	  <section class="box">
+    <article class="box-content">
+      <p>Câu nói anh nghe nhiều nhất hồi còn nhỏ là: “Chọn bạn mà chơi nha con”. Đọc sách lại thấy mấy câu nhức nhối lòng kiểu “gần mực thì đen, gần đèn thì rạng” hay “ngưu tầm ngưu mã tầm mã”. Người lớn thủ thỉ vào tai anh: “Con ơi, đừng chơi với nó. Nó là bạn xấu. [lược bớt 1 ngàn mấy trăm chữ hoạch định tính cách, nhân phẩm con người ta].</p>
+      <p>Hồi nhỏ anh cũng ngoan ngoãn nghe lời lắm. Mặc dù bản thân thì hư nhưng chỉ chơi với bạn tốt thôi. Tức là những đứa chăm chỉ học hành, con ngoan trò giỏi. Lúc đi chơi anh còn kiểm tra xem có phiếu bé ngoan hay không thì mới đi.</p>
+    </article>
 
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+      <li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10"></a></li>
+  
+      </ul>
+      <a href="#" class="btn-comment" title="Text me here">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+	</div>
+	<div id="fragment-3" class="ui-tabs-panel ui-tabs-hide">
+  <section class="box">
+    <article class="box-content">
+	<p>	Rồi anh lớn.</p>
+	<p>
+Khi đạt được độ tuổi bắt đầu có nhận thức, có vốn sống để đánh giá con người, dù ít ỏi. Anh thấy mấy đứa “bạn tốt” ngày xưa anh chơi rặt một đám nhỏ nhen mọt sách chen lấn nhau giữa những điểm số.</p>
+<p> Chúng ganh nhau từng chút một, nhìn nhau bằng ánh mắt tị hiềm và nói sau lưng nhau những lời chối tai làm sao. Còn những đứa từng một thời bị anh xa lánh, lại ngoan ngoãn giúp ta những lúc trưa nắng, nghe anh than thở đủ điều về cuộc đời và chấp nhận anh, dù anh có sai lệch.
+	</p>
+	  </article>
+
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+        <li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10"></a></li>
+  
+      </ul>
+       <a href="https://chomottachcoffee.wordpress.com" class="btn-comment" title="Text me here">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+	</div>
+    <div id="fragment-4" class="ui-tabs-panel ui-tabs-hide">
+  <section class="box">
+    <article class="box-content">
+	<p>	Sách nói không sai. Ông bà nói cũng không sai. Người lớn dặn cũng không sai bao giờ. Biết thế nhưng anh cứ thấy nó không đúng sao sao đó.
+	Thôi, mở bài thế đủ rồi. Để anh kể em nghe câu chuyện về một người bạn xấu của anh.
+	</p>
+	<p>
+	Nhỏ tên N. Anh chơi với nhỏ cũng mấy năm rồi. Hồi mới gặp bọn anh ghét nhau lắm. Nhỏ ghét mấy đứa nhìn kì cục như anh, anh ghét mấy đứa hay cáu có như nhỏ. 
+	</p>
+<p>
+Nhưng buồn cười là sau anh lại chơi khá thân với nhỏ. Nhỏ là đứa học kém, gia đình bố mẹ hay cãi nhau, cũng không hòa đồng cho lắm. 
+</p>
+</article>
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+        <li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10"></a></li>
+  
+      </ul>
+       <a href="https://chomottachcoffee.wordpress.com" class="btn-comment" title="Text me here">
+       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+	</div>
+    <div id="fragment-5" class="ui-tabs-panel ui-tabs-hide">
+<section class="box">
+    <article class="box-content">
+	<p>
+	 Còn vì sao anh chơi với nhỏ à? Đó là một buổi chiều đầy nắng, anh đang trên đường từ trường về thì thấy nhỏ. Nhỏ đang lúi húi đào cái gì đó. Anh lại gần coi. Té ra nhỏ đang đào một cái cây nhỏ. Anh để ý nhỏ từ đó.
+	</p>
+	<p>
+	Sau này chơi thân, anh đến nhà nhỏ chơi. Sau nhà nhỏ là một khu vườn. Mà anh nghĩ phải gọi đó là khu vườn tình thương. Nhỏ thấy cây gì sắp chết hay sắp bị bứng bỏ là nhỏ đem về cứu. 
+	Nên vườn rất tạp nham, chỗ này cây cà chua, chỗ kia có cây me. Nhiều quá nhỏ định đem bán. Bán rẻ 10 ngàn, 20 ngàn 1 cây bởi vì cho thì người ta không quý, bán giá tượng trưng cho người ta dễ mua lại vừa thích thú vì có cây mới.
+	</p>
+	  </article>
+
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+        <li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10"></a></li>
+  
+      </ul>
+       <a href="https://chomottachcoffee.wordpress.com" class="btn-comment" title="Text me here">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+	</div>
+    <div id="fragment-6" class="ui-tabs-panel ui-tabs-hide">
+	<section class="box">
+    <article class="box-content">
+	<p>
+	Giờ nhỏ sắp vô nam. Nghe nói tính mở một cái vườn gì đó. Trồng đủ các loại cây trên đời. Với anh nhỏ như cây hồng vậy. Nó là cái cây bình thường nhất khu vườn, liếc qua một cái là mình quên ngay. Nhưng vào mùa đông, trên cái cây trơ trụi lá mà cành khẳng khiu ấy, em sẽ thấy những trái hồng đỏ lựng, treo trên cây như đốm lửa ấm. Cảm giác như bao tình yêu cái cây đều dồn vào những trái hồng vậy. Đỏ thơm, ấm áp, ngọt lành. Khiến người ta cứ lưu luyến mãi.
+	</p>
+	<p>
+	Đấy, người bạn xấu của anh đấy. Còn anh? Ừ, chắc cũng là một người bạn xấu. Xấu tệ luôn.
+ Bọn anh là những con chuột xấu xa, muốn giải phóng đồng quê.
+	</p>
+	</article>
+    <!-- Navigation -->
+    <nav class="box-navbar">
+      <a href="#" class="btn-close" title="Close">Press next →</a>
+      <ul class="box-nav">
+       <li class="ul-buttom ul-buttom-hide"><a href="#fragment-1"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-2"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-3"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-4"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-5"><img src="http://pngimg.com/uploads/dot/dot_PNG28.png" width="10" height ="10">  </a></li>
+		<li class="ul-buttom ul-buttom-hide"><a href="#fragment-6"><img src="http://pngimg.com/uploads/dot/dot_PNG37.png" width="10" height ="10"></a></li>
+  
+      </ul>
+       <a href="https://chomottachcoffee.wordpress.com" class="btn-comment" title="Text me here">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 612 612" xml:space="preserve"> <g> <g> <g> <path d="M577.358,46.188H34.642C15.508,46.188,0,61.696,0,80.83v334.869c0,19.133,15.508,34.641,34.642,34.641h35.6 l62.54,115.473l62.54-115.473h382.038c19.134,0,34.642-15.508,34.642-34.641V80.83C612,61.696,596.492,46.188,577.358,46.188z M588.905,392.603c0,19.135-15.508,34.643-34.642,34.643H179.212l-45.646,79.051l-45.634-79.051H57.736 c-19.134,0-34.642-15.508-34.642-34.643V103.924c0-19.134,15.508-34.642,34.642-34.642h496.528 c19.134,0,34.642,15.508,34.642,34.642V392.603z"/> </g> </g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> <g> </g> </svg>
+      </a>
+    </nav>
+  </section>
+  </div>
 </body>
-
+<footer>
+<p class="copyright" align = "center" style="font-size:10px">Copyright © {{year}} with love by Bohemian Guy! Follow him on <a href="https://chomottachcoffee.wordpress.com" target="_blank" style = "color:black">Bohemian Guy</a></p>
+</footer>
 </html>
