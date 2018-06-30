@@ -1,0 +1,198 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+html,
+.html {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  line-height: inherit;
+}
+
+.location-card {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  color: #777f87;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  height: 100%;
+  left: 50%;
+  max-height: 660px;
+  max-width: 800px;
+  overflow: hidden;
+  position: absolute;
+  padding: 0 0 0 40px;
+  top: 50%;
+  width: 100%;
+}
+.location-card::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.location-card__view {
+  float: left;
+  width: 470px;
+}
+.location-card__panel {
+  background-color: #fff;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 320px;
+}
+.location-card__slides {
+  margin-top: 50px;
+}
+.location-card__slide {
+  padding: 0 45px;
+}
+.location-card__thumbnails {
+  background-color: #32004b;
+  height: 80px;
+  min-width: 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.location-card__thumbnails::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.location-card__thumbnails li {
+  cursor: pointer;
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+.location-card__thumbnails li img {
+  -webkit-transition: opacity 350ms ease-in-out;
+  -moz-transition: opacity 350ms ease-in-out;
+  transition: opacity 350ms ease-in-out;
+  display: block;
+  opacity: 0.2;
+}
+.location-card__thumbnails li:hover img {
+  opacity: 1;
+}
+.location-card__thumbnails .location-card__thumbnails-more {
+  -webkit-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  background-color: #222629;
+  bottom: 0;
+  color: #4e5154;
+  content: "+" attr(data-more);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 80px;
+  z-index: 10;
+}
+.location-card__thumbnails .location-card__thumbnails-more:hover {
+  color: #fff;
+}
+.location-card__fake-controls {
+  bottom: 80px;
+  display: block;
+  position: absolute;
+  width: 100%;
+}
+.location-card__city-name {
+  bottom: 140px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  position: absolute;
+  line-height: 0.9;
+}
+.location-card__hashtags {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  bottom: 0;
+  color: #fff;
+  left: 40px;
+  line-height: 79px;
+  position: absolute;
+  right: 320px;
+}
+.location-card__hashtags::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.location-card__hashtags:before {
+  box-shadow: 0px 0px 20px 3px rgba(9, 180, 236, 0.6);
+  position: absolute;
+  top: -1px;
+  right: 0;
+  width: 30%;
+  content: '';
+  height: 1px;
+}
+.location-card__hashtags li {
+  float: left;
+  margin-right: 10px;
+}
+.location-card__hashtags a:link,
+.location-card__hashtags a:active,
+.location-card__hashtags a:visited {
+  -webkit-transition: all 350ms ease-in-out;
+  -moz-transition: all 350ms ease-in-out;
+  transition: all 350ms ease-in-out;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  text-decoration: none;
+}
+.location-card__hashtags a:hover {
+  color: #09b4ec;
+}
+
+.active-location-card {
+  background-position: center;
+  background-size: cover;
+}
+.active-location-card--new-york {
+  background-image: url("https://images.pexels.com/photos/691541/pexels-photo-691541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.active-location-card--new-york .location-card {
+  background-image: url("https://images.pexels.com/photos/691541/pexels-photo-691541.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+.point-of-interest__name {
+  color: #2a2727;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+.point-of-interest__likes {
+  color: #09b4ec;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.point-of-interest__description {
+  line-height: 1.5;
+  margin-top: 50px;
+}

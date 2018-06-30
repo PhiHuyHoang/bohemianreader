@@ -1,6 +1,8 @@
 import datetime
 from flask import Flask, render_template
 import os
+
+
 year = datetime.date.today().year
 
 # Flask app should start in global layout
